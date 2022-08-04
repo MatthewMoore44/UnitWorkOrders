@@ -11,7 +11,7 @@
         <copied_from_name/>
         <description/>
         <internal_name>apartment_unit_workorders</internal_name>
-        <label_cache>[{"name":"7e972ce6-58e7-4343-a333-db95fd2316ba.scheduled_end_date_time","label":"1 - SLA Percentage Timer➛Scheduled End Date/Time","reference_display":"Scheduled End Date/Time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"uiTypeLabel":"Date/Time","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"glide_date_time"}},{"name":"7e972ce6-58e7-4343-a333-db95fd2316ba.status","label":"1 - SLA Percentage Timer➛Status","type":"choice","base_type":"choice","choices":[{"label":"Paused","value":"paused","order":0.0},{"label":"Completed","value":"completed","order":1.0},{"label":"Repair","value":"repair","order":2.0},{"label":"Skipped","value":"skipped","order":3.0},{"label":"Cancelled","value":"cancelled","order":4.0}],"attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice"}},{"name":"7e972ce6-58e7-4343-a333-db95fd2316ba.total_duration","label":"1 - SLA Percentage Timer➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"uiTypeLabel":"Duration","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"glide_duration"}},{"name":"7e972ce6-58e7-4343-a333-db95fd2316ba.__action_status__","label":"1 - SLA Percentage Timer➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"7e972ce6-58e7-4343-a333-db95fd2316ba.__dont_treat_as_error__","label":"1 - SLA Percentage Timer➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"08ef2fad-14a7-4c95-96fe-ad1df05332fe.email","label":"2 - Send Email➛email","reference":"sys_email","reference_display":"email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"08ef2fad-14a7-4c95-96fe-ad1df05332fe.__action_status__","label":"2 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"08ef2fad-14a7-4c95-96fe-ad1df05332fe.__dont_treat_as_error__","label":"2 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"SLA Task_1.task_sla_record.task.assigned_to.email","label":"Trigger - SLA Task➛Task SLA Record➛Task➛Assigned to➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"SLA Task_1.task_sla_record","label":"Trigger - SLA Task➛Task SLA Record","reference":"task_sla","reference_display":"Task SLA","type":"reference","base_type":"reference","attributes":{}},{"name":"SLA Task_1.task_sla_record.task.number","label":"Trigger - SLA Task➛Task SLA Record➛Task➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"task","column_name":"number"},{"name":"SLA Task_1.task_sla_record.percentage","label":"Trigger - SLA Task➛Task SLA Record➛Actual elapsed percentage","reference":"","reference_display":"Actual elapsed percentage","type":"percent_complete","base_type":"percent_complete","parent_table_name":"task_sla","column_name":"percentage"},{"name":"SLA Task_1.task_sla_record.start_time","label":"Trigger - SLA Task➛Task SLA Record➛Start time","reference":"","reference_display":"Start time","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"task_sla","column_name":"start_time"}]</label_cache>
+        <label_cache>[{"name":"SLA Task_1.task_sla_record.start_time","label":"Trigger - SLA Task➛Task SLA Record➛Start time","reference":"","reference_display":"Start time","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"task_sla","column_name":"start_time"},{"name":"SLA Task_1.task_sla_record.percentage","label":"Trigger - SLA Task➛Task SLA Record➛Actual elapsed percentage","reference":"","reference_display":"Actual elapsed percentage","type":"percent_complete","base_type":"percent_complete","parent_table_name":"task_sla","column_name":"percentage"},{"name":"SLA Task_1.task_sla_record.task.number","label":"Trigger - SLA Task➛Task SLA Record➛Task➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"task","column_name":"number"},{"name":"SLA Task_1.task_sla_record","label":"Trigger - SLA Task➛Task SLA Record","reference":"task_sla","reference_display":"Task SLA","type":"reference","base_type":"reference","attributes":{}},{"name":"SLA Task_1.task_sla_record.task.assigned_to.email","label":"Trigger - SLA Task➛Task SLA Record➛Task➛Assigned to➛Email","reference":"","reference_display":"Email","type":"email","base_type":"email","parent_table_name":"sys_user","column_name":"email"},{"name":"08ef2fad-14a7-4c95-96fe-ad1df05332fe.__dont_treat_as_error__","label":"2 - Send Email➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"08ef2fad-14a7-4c95-96fe-ad1df05332fe.__action_status__","label":"2 - Send Email➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"08ef2fad-14a7-4c95-96fe-ad1df05332fe.email","label":"2 - Send Email➛email","reference":"sys_email","reference_display":"email","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7e972ce6-58e7-4343-a333-db95fd2316ba.__dont_treat_as_error__","label":"1 - SLA Percentage Timer➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"uiType":"boolean","visible_in_ui":"false","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7e972ce6-58e7-4343-a333-db95fd2316ba.__action_status__","label":"1 - SLA Percentage Timer➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"uiType":"object","co_type_name":"FDACTIONSTATUS","action_error_output":"true","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7e972ce6-58e7-4343-a333-db95fd2316ba.total_duration","label":"1 - SLA Percentage Timer➛Total Duration","reference_display":"Total Duration","type":"glide_duration","base_type":"glide_duration","attributes":{"uiType":"glide_duration","uiTypeLabel":"Duration","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7e972ce6-58e7-4343-a333-db95fd2316ba.status","label":"1 - SLA Percentage Timer➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Paused","value":"paused","order":0.0},{"label":"Completed","value":"completed","order":1.0},{"label":"Repair","value":"repair","order":2.0},{"label":"Skipped","value":"skipped","order":3.0},{"label":"Cancelled","value":"cancelled","order":4.0}],"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"7e972ce6-58e7-4343-a333-db95fd2316ba.scheduled_end_date_time","label":"1 - SLA Percentage Timer➛Scheduled End Date/Time","reference_display":"Scheduled End Date/Time","type":"glide_date_time","base_type":"glide_date_time","attributes":{"uiType":"glide_date_time","uiTypeLabel":"Date/Time","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"844b9bfb-ee13-479c-8b10-2bca5161afb3.Record","label":"4 - Look Up Record➛Task SLA Record","reference":"task_sla","reference_display":"Task SLA Record","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"844b9bfb-ee13-479c-8b10-2bca5161afb3.Table","label":"4 - Look Up Record➛Task SLA Table","reference":"task_sla","reference_display":"Task SLA Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"844b9bfb-ee13-479c-8b10-2bca5161afb3.status","label":"4 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"attributes":{"uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"choice","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"844b9bfb-ee13-479c-8b10-2bca5161afb3.error_message","label":"4 - Look Up Record➛Error Message","reference_display":"Error Message","type":"string","base_type":"string","attributes":{"uiTypeLabel":"String","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","pwd2droppable":"true","uiType":"string","uiUniqueId":"87687532-9e3d-4497-a88e-90f45bfb9adb"}},{"name":"844b9bfb-ee13-479c-8b10-2bca5161afb3.__action_status__","label":"4 - Look Up Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"844b9bfb-ee13-479c-8b10-2bca5161afb3.__dont_treat_as_error__","label":"4 - Look Up Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}},{"name":"SLA Task_1.task_sla_record.task.sys_id","label":"Trigger - SLA Task➛Task SLA Record➛Task➛Sys ID","reference":"","reference_display":"Sys ID","type":"GUID","base_type":"GUID","parent_table_name":"task","column_name":"sys_id"},{"name":"749a6a7d-7c33-4214-b93e-0d7e8a642bf9.record","label":"5 - Create Record➛Record","reference_display":"Record","type":"document_id","base_type":"document_id","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"749a6a7d-7c33-4214-b93e-0d7e8a642bf9.table_name","label":"5 - Create Record➛Table","reference_display":"Table","type":"table_name","base_type":"table_name","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"749a6a7d-7c33-4214-b93e-0d7e8a642bf9.__action_status__","label":"5 - Create Record➛Action Status","reference_display":"Action Status","type":"object","base_type":"object","attributes":{"co_type_name":"FDACTIONSTATUS","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"object","action_error_output":"true"}},{"name":"749a6a7d-7c33-4214-b93e-0d7e8a642bf9.__dont_treat_as_error__","label":"5 - Create Record➛Don\u0027t Treat as Error","reference_display":"Don\u0027t Treat as Error","type":"boolean","base_type":"boolean","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiType":"boolean","visible_in_ui":"false","action_error_output":"true"}}]</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
         <name>Apartment Unit Workorders</name>
@@ -30,7 +30,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>277e2b2a97c91110206f3756f053af2e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Apartment Unit Workorders</sys_name>
         <sys_overrides/>
         <sys_package display_value="Apartment Unit Workorders" source="x_804680_app_unit">f47dcaae97051110206f3756f053af51</sys_package>
@@ -38,7 +38,7 @@
         <sys_scope display_value="Apartment Unit Workorders">f47dcaae97051110206f3756f053af51</sys_scope>
         <sys_update_name>sys_hub_flow_277e2b2a97c91110206f3756f053af2e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-04 20:51:10</sys_updated_on>
+        <sys_updated_on>2022-08-04 21:52:55</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=277e2b2a97c91110206f3756f053af2e"/>
@@ -53,10 +53,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-04 20:51:10</sys_created_on>
         <sys_id>8f203bea97c91110206f3756f053af49</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-04 20:51:10</sys_updated_on>
+        <sys_updated_on>2022-08-04 21:52:55</sys_updated_on>
         <trigger_definition display_value="SLA Task">f5ce00a873723300d70877186bf6a759</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -163,7 +163,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>co_type_name=FD8b203bea74c91110d62a5a1545ad183c,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object</attributes>
+        <attributes>co_type_name=FDa34e3b2a7d0d11100ce31a026d7b1e0b,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -221,14 +221,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-04 20:51:10</sys_created_on>
         <sys_id>cf203bea97c91110206f3756f053af44</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Apartment Unit Workorders">f47dcaae97051110206f3756f053af51</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-04 20:51:10</sys_updated_on>
+        <sys_updated_on>2022-08-04 21:52:54</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -242,7 +242,7 @@
     </sys_hub_flow_input>
     <sys_hub_flow_output action="delete_multiple" query="model=277e2b2a97c91110206f3756f053af2e"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=277e2b2a97c91110206f3756f053af2e"/>
-    <sys_hub_action_instance action="delete_multiple" query="flow=277e2b2a97c91110206f3756f053af2e^sys_idNOT IN07203bea97c91110206f3756f053af50,5f203bea97c91110206f3756f053af59"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=277e2b2a97c91110206f3756f053af2e^sys_idNOT IN07203bea97c91110206f3756f053af50,5f203bea97c91110206f3756f053af59,b74e3b2a970d1110206f3756f053af2a,b74e3b2a970d1110206f3756f053af31"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
         <action_type display_value="SLA Percentage Timer">a1a50c4573873300d70877186bf6a762</action_type>
@@ -257,10 +257,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-04 20:51:10</sys_created_on>
         <sys_id>07203bea97c91110206f3756f053af50</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Apartment Unit Workorders">f47dcaae97051110206f3756f053af51</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-04 20:51:10</sys_updated_on>
+        <sys_updated_on>2022-08-04 21:52:55</sys_updated_on>
         <ui_id>7e972ce6-58e7-4343-a333-db95fd2316ba</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=07203bea97c91110206f3756f053af50"/>
@@ -310,10 +310,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-04 20:51:10</sys_created_on>
         <sys_id>5f203bea97c91110206f3756f053af59</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_scope display_value="Apartment Unit Workorders">f47dcaae97051110206f3756f053af51</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-04 20:51:10</sys_updated_on>
+        <sys_updated_on>2022-08-04 21:52:55</sys_updated_on>
         <ui_id>08ef2fad-14a7-4c95-96fe-ad1df05332fe</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=5f203bea97c91110206f3756f053af59"/>
@@ -424,6 +424,121 @@
     </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=5f203bea97c91110206f3756f053af59"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=5f203bea97c91110206f3756f053af59"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Apartment Unit Workorders">277e2b2a97c91110206f3756f053af2e</flow>
+        <order>4</order>
+        <parent_ui_id>55b3a5ef-30e8-42c1-b08a-c5836e442399</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 21:52:55</sys_created_on>
+        <sys_id>b74e3b2a970d1110206f3756f053af2a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Apartment Unit Workorders">f47dcaae97051110206f3756f053af51</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 21:52:55</sys_updated_on>
+        <ui_id>844b9bfb-ee13-479c-8b10-2bca5161afb3</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b74e3b2a970d1110206f3756f053af2a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b74e3b2a970d1110206f3756f053af2a</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 21:52:55</sys_created_on>
+        <sys_id>f34e3b2a970d1110206f3756f053af2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 21:52:55</sys_updated_on>
+        <value>task_sla</value>
+        <variable display_value="Table">d909f99587003300663ca1bb36cb0ba4</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b74e3b2a970d1110206f3756f053af2a"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>conditions</field>
+        <id>b74e3b2a970d1110206f3756f053af2a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 21:52:55</sys_created_on>
+        <sys_id>bb4e3b2a970d1110206f3756f053af2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 21:52:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value>sys_id={{SLA Task_1.task_sla_record.task.sys_id}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table</field>
+        <id>b74e3b2a970d1110206f3756f053af2a</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 21:52:55</sys_created_on>
+        <sys_id>734e3b2a970d1110206f3756f053af2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 21:52:55</sys_updated_on>
+        <table>var__m_sys_hub_action_input_9d09f99587003300663ca1bb36cb0ba3</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b74e3b2a970d1110206f3756f053af2a"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b74e3b2a970d1110206f3756f053af2a"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Apartment Unit Workorders">277e2b2a97c91110206f3756f053af2e</flow>
+        <order>5</order>
+        <parent_ui_id>55b3a5ef-30e8-42c1-b08a-c5836e442399</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 21:52:55</sys_created_on>
+        <sys_id>b74e3b2a970d1110206f3756f053af31</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Apartment Unit Workorders">f47dcaae97051110206f3756f053af51</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 21:52:55</sys_updated_on>
+        <ui_id>749a6a7d-7c33-4214-b93e-0d7e8a642bf9</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b74e3b2a970d1110206f3756f053af31"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b74e3b2a970d1110206f3756f053af31</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 21:52:55</sys_created_on>
+        <sys_id>374e3b2a970d1110206f3756f053af33</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 21:52:55</sys_updated_on>
+        <value>ais_updatable_field_event</value>
+        <variable display_value="Table">61e05916c31332002841b63b12d3aee4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b74e3b2a970d1110206f3756f053af31</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 21:52:55</sys_created_on>
+        <sys_id>734e3b2a970d1110206f3756f053af33</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 21:52:55</sys_updated_on>
+        <value>=</value>
+        <variable display_value="Fields">6de09916c31332002841b63b12d3ae1b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_2de05916c31332002841b63b12d3aee1^id=b74e3b2a970d1110206f3756f053af31"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b74e3b2a970d1110206f3756f053af31"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b74e3b2a970d1110206f3756f053af31"/>
     <sys_hub_sub_flow_instance action="delete_multiple" query="flow=277e2b2a97c91110206f3756f053af2e"/>
     <sys_hub_flow_logic action="delete_multiple" query="flow=277e2b2a97c91110206f3756f053af2e^sys_idNOT IN17203bea97c91110206f3756f053af77"/>
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
@@ -448,10 +563,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-04 20:51:10</sys_created_on>
         <sys_id>17203bea97c91110206f3756f053af77</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Apartment Unit Workorders">f47dcaae97051110206f3756f053af51</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-04 20:51:10</sys_updated_on>
+        <sys_updated_on>2022-08-04 21:52:55</sys_updated_on>
         <ui_id>55b3a5ef-30e8-42c1-b08a-c5836e442399</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
