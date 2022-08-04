@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="unit_workorders" max_length="40" name="x_804680_app_unit_unit_workorders" type="collection">
+    <element audit="true" extends="task" label="unit_workorders" max_length="40" name="x_804680_app_unit_unit_workorders" type="collection">
         <element attributes="edge_encryption_enabled=true" label="First Name" mandatory="true" max_length="40" name="first_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Last Name" mandatory="true" max_length="40" name="last_name" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="ac_heat" label="Catogory" mandatory="true" max_length="40" name="u_choice_1" type="choice">
