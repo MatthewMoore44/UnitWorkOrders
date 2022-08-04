@@ -1,3 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="unit_workorders" max_length="40" name="x_804680_app_unit_unit_workorders" type="collection"/>
+    <element extends="task" label="unit_workorders" max_length="40" name="x_804680_app_unit_unit_workorders" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" default="ac_heat" label="Catogory" mandatory="true" max_length="40" name="u_choice_1" type="string">
+            <choice>
+                <element inactive_on_update="false" label="A/C &amp; Heat" sequence="0" value="ac_heat"/>
+                <element inactive_on_update="false" label="Leak" sequence="1" value="leak"/>
+                <element inactive_on_update="false" label="Appliance Issues" sequence="2" value="appliance_issues"/>
+                <element inactive_on_update="false" label="Fixture Issues" sequence="3" value="fixture_issues"/>
+                <element inactive_on_update="false" label="Other" sequence="4" value="other"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Start Date/Time" max_length="40" name="u_glide_date_time_2" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="End Date/Time" max_length="40" name="u_glide_date_time_3" type="glide_date_time"/>
+        <element attributes="edge_encryption_enabled=true" label="Unit Number" mandatory="true" max_length="40" name="u_integer_1" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" dependent="u_reference_5" dependent_on_field="u_reference_5" label="First Name" mandatory="true" max_length="32" name="u_reference_5" reference="sys_user" type="reference" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" dependent="u_reference_6" dependent_on_field="u_reference_6" label="Last Name" mandatory="true" max_length="32" name="u_reference_6" reference="sys_user" type="reference" use_dependent_field="true"/>
+    </element>
 </database>

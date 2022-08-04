@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="DELETE">
+        <sc_cat_item display_value="unit_workload">c53d1a2297851110206f3756f053afe9</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 14:52:16</sys_created_on>
+        <sys_id>3d0ede6297851110206f3756f053af0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>unit_workload.Any User</sys_name>
+        <sys_package display_value="Appartment Unit Workorders" source="x_804680_app_unit">f47dcaae97051110206f3756f053af51</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Appartment Unit Workorders">f47dcaae97051110206f3756f053af51</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_3d0ede6297851110206f3756f053af0a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 14:52:16</sys_updated_on>
+        <user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Appartment Unit Workorders">f47dcaae97051110206f3756f053af51</application>
+        <file_path/>
+        <instance_id>071acb171bbbe05032182f8dee4bcb95</instance_id>
+        <instance_name>dev113135</instance_name>
+        <name>sc_cat_item_user_criteria_mtom_3d0ede6297851110206f3756f053af0a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom"><sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="unit_workload">c53d1a2297851110206f3756f053afe9</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-08-04 14:52:16</sys_created_on><sys_id>3d0ede6297851110206f3756f053af0a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>unit_workload.Any User</sys_name><sys_package display_value="Appartment Unit Workorders" source="x_804680_app_unit">f47dcaae97051110206f3756f053af51</sys_package><sys_policy/><sys_scope display_value="Appartment Unit Workorders">f47dcaae97051110206f3756f053af51</sys_scope><sys_update_name>sc_cat_item_user_criteria_mtom_3d0ede6297851110206f3756f053af0a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-08-04 14:52:16</sys_updated_on><user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria></sc_cat_item_user_criteria_mtom></record_update>]]></payload>
+        <payload_hash>-476717174</payload_hash>
+        <record_name>unit_workload.Any User</record_name>
+        <reverted_from/>
+        <source>38549ee697451110206f3756f053af54</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 14:52:16</sys_created_on>
+        <sys_id>b50ede6297851110206f3756f053af0e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1826957c5c80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 14:52:16</sys_updated_on>
+        <type>Catalog Item Available for</type>
+        <update_guid>3d0ede6264851110c0981eccffaf120d</update_guid>
+        <update_guid_history>3d0ede6264851110c0981eccffaf120d:-476717174</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="unit_workload.Any User">4d3e92a297851110206f3756f053af5b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 14:53:02</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_mtom">sc_cat_item_user_criteria_mtom</sys_db_object>
+        <sys_id>028b5e06cf8d42c480168edd00aa5e84</sys_id>
+        <sys_metadata>3d0ede6297851110206f3756f053af0a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>unit_workload.Any User</sys_name>
+        <sys_package display_value="Appartment Unit Workorders" source="x_804680_app_unit">f47dcaae97051110206f3756f053af51</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Appartment Unit Workorders">f47dcaae97051110206f3756f053af51</sys_scope>
+        <sys_scope_delete display_value="">0514a4d8f2054cb0be091c77d69cce84</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_3d0ede6297851110206f3756f053af0a</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_mtom_3d0ede6297851110206f3756f053af0a">b50ede6297851110206f3756f053af0e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 14:53:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
