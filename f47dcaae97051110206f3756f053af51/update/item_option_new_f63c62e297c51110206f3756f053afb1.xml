@@ -39,12 +39,12 @@
         <map_to_field>true</map_to_field>
         <mask_use_confirmation>false</mask_use_confirmation>
         <mask_use_encryption>false</mask_use_encryption>
-        <name>catogory</name>
+        <name>category</name>
         <order>400</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
         <published_ref/>
-        <question_text>Catogory</question_text>
+        <question_text>Category</question_text>
         <read_only>false</read_only>
         <read_roles/>
         <read_script/>
@@ -68,14 +68,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2022-08-04 15:54:19</sys_created_on>
         <sys_id>f63c62e297c51110206f3756f053afb1</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Catogory</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Category</sys_name>
         <sys_package display_value="Apartment Unit Workorders" source="x_804680_app_unit">f47dcaae97051110206f3756f053af51</sys_package>
         <sys_policy/>
         <sys_scope display_value="Apartment Unit Workorders">f47dcaae97051110206f3756f053af51</sys_scope>
         <sys_update_name>item_option_new_f63c62e297c51110206f3756f053afb1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-08-04 17:35:19</sys_updated_on>
+        <sys_updated_on>2022-08-04 18:28:03</sys_updated_on>
         <table/>
         <tooltip/>
         <type>3</type>
