@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element extends="task" label="unit_workorders" max_length="40" name="x_804680_app_unit_unit_workorders" type="collection">
-        <element attributes="edge_encryption_enabled=true" choice="3" default="ac_heat" label="Catogory" mandatory="true" max_length="40" name="u_choice_1" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="ac_heat" label="Catogory" mandatory="true" max_length="40" name="u_choice_1" type="choice">
             <choice>
                 <element inactive_on_update="false" label="A/C &amp; Heat" sequence="0" value="ac_heat"/>
                 <element inactive_on_update="false" label="Leak" sequence="1" value="leak"/>

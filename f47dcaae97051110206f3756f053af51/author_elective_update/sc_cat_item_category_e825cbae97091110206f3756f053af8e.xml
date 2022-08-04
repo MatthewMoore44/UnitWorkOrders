@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="unit_workload">5425cbae97091110206f3756f053af28</sc_cat_item>
+        <sc_category display_value="Test Again">645ef26697091110206f3756f053af76</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 17:43:07</sys_created_on>
+        <sys_id>e825cbae97091110206f3756f053af8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test Again.unit_workload</sys_name>
+        <sys_package display_value="Apartment Unit Workorders" source="x_804680_app_unit">f47dcaae97051110206f3756f053af51</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Apartment Unit Workorders">f47dcaae97051110206f3756f053af51</sys_scope>
+        <sys_update_name>sc_cat_item_category_e825cbae97091110206f3756f053af8e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 17:43:07</sys_updated_on>
+    </sc_cat_item_category>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Apartment Unit Workorders">f47dcaae97051110206f3756f053af51</application>
+        <file_path/>
+        <instance_id>071acb171bbbe05032182f8dee4bcb95</instance_id>
+        <instance_name>dev113135</instance_name>
+        <name>sc_cat_item_category_e825cbae97091110206f3756f053af8e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category"><sc_cat_item_category action="INSERT_OR_UPDATE"><sc_cat_item display_value="unit_workload">5425cbae97091110206f3756f053af28</sc_cat_item><sc_category display_value="Test Again">645ef26697091110206f3756f053af76</sc_category><sys_class_name>sc_cat_item_category</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-08-04 17:43:07</sys_created_on><sys_id>e825cbae97091110206f3756f053af8e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Test Again.unit_workload</sys_name><sys_package display_value="Apartment Unit Workorders" source="x_804680_app_unit">f47dcaae97051110206f3756f053af51</sys_package><sys_policy/><sys_scope display_value="Apartment Unit Workorders">f47dcaae97051110206f3756f053af51</sys_scope><sys_update_name>sc_cat_item_category_e825cbae97091110206f3756f053af8e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-08-04 17:43:07</sys_updated_on></sc_cat_item_category></record_update>]]></payload>
+        <payload_hash>-804278290</payload_hash>
+        <record_name>Test Again.unit_workload</record_name>
+        <reverted_from/>
+        <source>38549ee697451110206f3756f053af54</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 17:43:07</sys_created_on>
+        <sys_id>2825cbae97091110206f3756f053af92</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18269f431960000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 17:43:07</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>ac25cbae3f091110c1696f094ccadb91</update_guid>
+        <update_guid_history>ac25cbae3f091110c1696f094ccadb91:-804278290</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Test Again.unit_workload">03358fae97091110206f3756f053af8e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 17:43:33</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>585ef94ad2254466b7d7ee737836c544</sys_id>
+        <sys_metadata>e825cbae97091110206f3756f053af8e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test Again.unit_workload</sys_name>
+        <sys_package display_value="Apartment Unit Workorders" source="x_804680_app_unit">f47dcaae97051110206f3756f053af51</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Apartment Unit Workorders">f47dcaae97051110206f3756f053af51</sys_scope>
+        <sys_scope_delete display_value="">0514a4d8f2054cb0be091c77d69cce84</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_e825cbae97091110206f3756f053af8e</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_e825cbae97091110206f3756f053af8e">2825cbae97091110206f3756f053af92</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 17:43:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

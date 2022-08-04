@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="unit_workload">5425cbae97091110206f3756f053af28</sc_cat_item>
+        <sc_catalog display_value="Test Cat">390e7e2697091110206f3756f053af4b</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 17:43:07</sys_created_on>
+        <sys_id>2825cbae97091110206f3756f053af8b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test Cat.unit_workload</sys_name>
+        <sys_package display_value="Apartment Unit Workorders" source="x_804680_app_unit">f47dcaae97051110206f3756f053af51</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Apartment Unit Workorders">f47dcaae97051110206f3756f053af51</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_2825cbae97091110206f3756f053af8b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 17:43:07</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Apartment Unit Workorders">f47dcaae97051110206f3756f053af51</application>
+        <file_path/>
+        <instance_id>071acb171bbbe05032182f8dee4bcb95</instance_id>
+        <instance_name>dev113135</instance_name>
+        <name>sc_cat_item_catalog_2825cbae97091110206f3756f053af8b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="unit_workload">5425cbae97091110206f3756f053af28</sc_cat_item><sc_catalog display_value="Test Cat">390e7e2697091110206f3756f053af4b</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-08-04 17:43:07</sys_created_on><sys_id>2825cbae97091110206f3756f053af8b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Test Cat.unit_workload</sys_name><sys_package display_value="Apartment Unit Workorders" source="x_804680_app_unit">f47dcaae97051110206f3756f053af51</sys_package><sys_policy/><sys_scope display_value="Apartment Unit Workorders">f47dcaae97051110206f3756f053af51</sys_scope><sys_update_name>sc_cat_item_catalog_2825cbae97091110206f3756f053af8b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-08-04 17:43:07</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-1712949530</payload_hash>
+        <record_name>Test Cat.unit_workload</record_name>
+        <reverted_from/>
+        <source>38549ee697451110206f3756f053af54</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 17:43:07</sys_created_on>
+        <sys_id>a025cbae97091110206f3756f053af8e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18269f431630000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 17:43:07</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>2825cbaef709111002b7351aa5ebe08d</update_guid>
+        <update_guid_history>2825cbaef709111002b7351aa5ebe08d:-1712949530</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Test Cat.unit_workload">7f4543ee97091110206f3756f053af21</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 17:43:53</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>9b01e08bbd754d008e501b4c48a49040</sys_id>
+        <sys_metadata>2825cbae97091110206f3756f053af8b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Test Cat.unit_workload</sys_name>
+        <sys_package display_value="Apartment Unit Workorders" source="x_804680_app_unit">f47dcaae97051110206f3756f053af51</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Apartment Unit Workorders">f47dcaae97051110206f3756f053af51</sys_scope>
+        <sys_scope_delete display_value="">0514a4d8f2054cb0be091c77d69cce84</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_2825cbae97091110206f3756f053af8b</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_2825cbae97091110206f3756f053af8b">a025cbae97091110206f3756f053af8e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 17:43:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

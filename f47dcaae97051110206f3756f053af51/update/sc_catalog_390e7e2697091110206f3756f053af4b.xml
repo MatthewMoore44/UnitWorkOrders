@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog">
+    <sc_catalog action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <background_color/>
+        <description/>
+        <desktop_continue_shopping/>
+        <desktop_home_page/>
+        <desktop_image/>
+        <editors/>
+        <enable_wish_list>false</enable_wish_list>
+        <manager/>
+        <sys_class_name>sc_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 17:12:16</sys_created_on>
+        <sys_id>390e7e2697091110206f3756f053af4b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>WorkOrder Request</sys_name>
+        <sys_package display_value="Apartment Unit Workorders" source="x_804680_app_unit">f47dcaae97051110206f3756f053af51</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Apartment Unit Workorders">f47dcaae97051110206f3756f053af51</sys_scope>
+        <sys_update_name>sc_catalog_390e7e2697091110206f3756f053af4b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 17:43:50</sys_updated_on>
+        <title>WorkOrder Request</title>
+    </sc_catalog>
+    <sys_translated_text action="delete_multiple" query="documentkey=390e7e2697091110206f3756f053af4b"/>
+</record_update>
