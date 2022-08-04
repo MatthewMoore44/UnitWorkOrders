@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="DELETE">
+        <condition_type>declarative</condition_type>
+        <description/>
+        <group_by/>
+        <instance_relative_url_qc/>
+        <name>Unit Work Order</name>
+        <offline_query_condition/>
+        <offline_query_condition_script/>
+        <query_condition/>
+        <query_condition_script/>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 22:59:25</sys_created_on>
+        <sys_id>068d00f6974d1110206f3756f053af5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Unit Work Order</sys_name>
+        <sys_package display_value="Apartment Unit Workorders" source="x_804680_app_unit">f47dcaae97051110206f3756f053af51</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Apartment Unit Workorders">f47dcaae97051110206f3756f053af51</sys_scope>
+        <sys_update_name>sys_sg_data_item_068d00f6974d1110206f3756f053af5e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 22:59:25</sys_updated_on>
+        <table>x_804680_app_unit_unit_workorders</table>
+    </sys_sg_data_item>
+    <sys_translated_text action="DELETE" query="documentkey=068d00f6974d1110206f3756f053af5e"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Apartment Unit Workorders">f47dcaae97051110206f3756f053af51</application>
+        <file_path/>
+        <instance_id>071acb171bbbe05032182f8dee4bcb95</instance_id>
+        <instance_name>dev113135</instance_name>
+        <name>sys_sg_data_item_068d00f6974d1110206f3756f053af5e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item"><sys_sg_data_item action="INSERT_OR_UPDATE"><condition_type>declarative</condition_type><description/><group_by/><instance_relative_url_qc/><name>Unit Work Order</name><offline_query_condition/><offline_query_condition_script/><query_condition/><query_condition_script/><sys_class_name>sys_sg_data_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-08-04 22:59:25</sys_created_on><sys_id>068d00f6974d1110206f3756f053af5e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Unit Work Order</sys_name><sys_package display_value="Apartment Unit Workorders" source="x_804680_app_unit">f47dcaae97051110206f3756f053af51</sys_package><sys_policy/><sys_scope display_value="Apartment Unit Workorders">f47dcaae97051110206f3756f053af51</sys_scope><sys_update_name>sys_sg_data_item_068d00f6974d1110206f3756f053af5e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-08-04 22:59:25</sys_updated_on><table>x_804680_app_unit_unit_workorders</table></sys_sg_data_item><sys_translated_text action="delete_multiple" query="documentkey=068d00f6974d1110206f3756f053af5e"/></record_update>]]></payload>
+        <payload_hash>-2121781392</payload_hash>
+        <record_name>Unit Work Order</record_name>
+        <reverted_from/>
+        <source>ab6c08b6974d1110206f3756f053af97</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 22:59:25</sys_created_on>
+        <sys_id>468d00f6974d1110206f3756f053af60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1826b15c7c00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 22:59:25</sys_updated_on>
+        <type>Data Item</type>
+        <update_guid>8e8d00f6654d1110b8b8f04bdd72aa5f</update_guid>
+        <update_guid_history>8e8d00f6654d1110b8b8f04bdd72aa5f:-2121781392</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-04 23:03:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_data_item">sys_sg_data_item</sys_db_object>
+        <sys_id>37827dd53034409c814a29c5bffb9390</sys_id>
+        <sys_metadata>068d00f6974d1110206f3756f053af5e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Unit Work Order</sys_name>
+        <sys_package display_value="Apartment Unit Workorders" source="x_804680_app_unit">f47dcaae97051110206f3756f053af51</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Apartment Unit Workorders">f47dcaae97051110206f3756f053af51</sys_scope>
+        <sys_scope_delete display_value="">0514a4d8f2054cb0be091c77d69cce84</sys_scope_delete>
+        <sys_update_name>sys_sg_data_item_068d00f6974d1110206f3756f053af5e</sys_update_name>
+        <sys_update_version display_value="sys_sg_data_item_068d00f6974d1110206f3756f053af5e">468d00f6974d1110206f3756f053af60</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-04 23:03:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
