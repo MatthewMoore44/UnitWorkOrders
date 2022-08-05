@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_button_instance">
+    <sys_sg_button_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <button display_value="Nav Urban 188 Workorder - List">bc50d7f697411110206f3756f053afe6</button>
+        <color_theme/>
+        <description/>
+        <disable_offline>false</disable_offline>
+        <field_name/>
+        <icon/>
+        <label>Urban 188 Workorder - List</label>
+        <location>chart_screen_header</location>
+        <name>Nav Urban 188 Workorder - List</name>
+        <order/>
+        <parent>3c50d7f697411110206f3756f053afd7</parent>
+        <parent_table>sys_sg_chart_screen</parent_table>
+        <sys_class_name>sys_sg_button_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-05 13:10:29</sys_created_on>
+        <sys_id>f850d7f697411110206f3756f053afee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Nav Urban 188 Workorder - List</sys_name>
+        <sys_package display_value="Apartment Unit Workorders" source="x_804680_app_unit">f47dcaae97051110206f3756f053af51</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Apartment Unit Workorders">f47dcaae97051110206f3756f053af51</sys_scope>
+        <sys_update_name>sys_sg_button_instance_f850d7f697411110206f3756f053afee</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-05 13:10:29</sys_updated_on>
+        <table/>
+    </sys_sg_button_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=f850d7f697411110206f3756f053afee"/>
+</record_update>

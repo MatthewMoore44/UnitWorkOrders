@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_filter">
+    <sys_filter action="INSERT_OR_UPDATE">
+        <filter table="task">assignment_group=34dbdaee97451110206f3756f053af2d^state=1^EQ<item display_table="sys_user_group" display_value="Apartment Workorder" endquery="false" field="assignment_group" goto="false" newquery="false" operator="=" or="false" value="34dbdaee97451110206f3756f053af2d"/>
+            <item display_value="Open" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="1"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <group/>
+        <last_used/>
+        <mobile>false</mobile>
+        <roles/>
+        <sys_class_name>sys_filter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-05 14:42:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>93656b3e97811110206f3756f053af88</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Wafer Sample</sys_name>
+        <sys_package display_value="Apartment Unit Workorders" source="x_804680_app_unit">f47dcaae97051110206f3756f053af51</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Apartment Unit Workorders">f47dcaae97051110206f3756f053af51</sys_scope>
+        <sys_update_name>sys_filter_93656b3e97811110206f3756f053af88</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-05 14:42:40</sys_updated_on>
+        <table>task</table>
+        <title>Wafer Sample</title>
+        <user/>
+    </sys_filter>
+    <sys_translated_text action="delete_multiple" query="documentkey=93656b3e97811110206f3756f053af88"/>
+</record_update>

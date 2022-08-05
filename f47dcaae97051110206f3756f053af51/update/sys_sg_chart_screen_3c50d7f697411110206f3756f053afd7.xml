@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_chart_screen">
+    <sys_sg_chart_screen action="INSERT_OR_UPDATE">
+        <available_offline>false</available_offline>
+        <description>Chart for Urban 188 Workorder</description>
+        <dynamic_prefetch_count/>
+        <empty_state/>
+        <fetch_type>not_required</fetch_type>
+        <filter/>
+        <hide_filters>false</hide_filters>
+        <hide_screen_name>false</hide_screen_name>
+        <icon display_value="Urban 188 Workorder">fc50d7f697411110206f3756f053afd5</icon>
+        <name>Urban 188 Workorder - Chart</name>
+        <report display_value="My Groups SLAs by Stage">4d712f940a0a0b3000dd3536fd0cce79</report>
+        <roles_override/>
+        <sys_class_name>sys_sg_chart_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-05 13:10:28</sys_created_on>
+        <sys_id>3c50d7f697411110206f3756f053afd7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Urban 188 Workorder - Chart</sys_name>
+        <sys_package display_value="Apartment Unit Workorders" source="x_804680_app_unit">f47dcaae97051110206f3756f053af51</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Apartment Unit Workorders">f47dcaae97051110206f3756f053af51</sys_scope>
+        <sys_update_name>sys_sg_chart_screen_3c50d7f697411110206f3756f053afd7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-05 13:10:28</sys_updated_on>
+        <tool_tip>true</tool_tip>
+        <type>report</type>
+        <use_last_point>true</use_last_point>
+        <widget/>
+    </sys_sg_chart_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=3c50d7f697411110206f3756f053afd7"/>
+</record_update>

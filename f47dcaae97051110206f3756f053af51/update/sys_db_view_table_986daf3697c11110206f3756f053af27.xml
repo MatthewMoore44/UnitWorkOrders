@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view_table">
+    <sys_db_view_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <left_join>false</left_join>
+        <order>100</order>
+        <sys_class_name>sys_db_view_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-05 15:17:53</sys_created_on>
+        <sys_id>986daf3697c11110206f3756f053af27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>task_sla</sys_name>
+        <sys_package display_value="Apartment Unit Workorders" source="x_804680_app_unit">f47dcaae97051110206f3756f053af51</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Apartment Unit Workorders">f47dcaae97051110206f3756f053af51</sys_scope>
+        <sys_update_name>sys_db_view_table_986daf3697c11110206f3756f053af27</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-05 15:17:53</sys_updated_on>
+        <table>task_sla</table>
+        <variable_prefix>TASK</variable_prefix>
+        <view display_value="x_804680_app_unit_unit_work_order_task_sla">13dceb3697c11110206f3756f053affd</view>
+        <where_clause/>
+    </sys_db_view_table>
+</record_update>

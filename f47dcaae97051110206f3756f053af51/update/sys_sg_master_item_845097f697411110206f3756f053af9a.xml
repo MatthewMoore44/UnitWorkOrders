@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_item">
+    <sys_sg_master_item action="INSERT_OR_UPDATE">
+        <condition_order/>
+        <datasource_table>task_sla</datasource_table>
+        <datasource_table_condition/>
+        <embedded_screen display_value="Urban 188 Workorder - List Record Screen">cc5097f697411110206f3756f053af74</embedded_screen>
+        <item_view/>
+        <name>Urban 188 Workorder - List List Item Config</name>
+        <sys_class_name>sys_sg_master_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-05 13:10:26</sys_created_on>
+        <sys_id>845097f697411110206f3756f053af9a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Urban 188 Workorder - List List Item Config</sys_name>
+        <sys_package display_value="Apartment Unit Workorders" source="x_804680_app_unit">f47dcaae97051110206f3756f053af51</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Apartment Unit Workorders">f47dcaae97051110206f3756f053af51</sys_scope>
+        <sys_update_name>sys_sg_master_item_845097f697411110206f3756f053af9a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-05 13:10:26</sys_updated_on>
+        <use_view_config>true</use_view_config>
+        <view_config display_value="Urban 188 Workorder - List Card">b74097f697411110206f3756f053af05</view_config>
+    </sys_sg_master_item>
+</record_update>

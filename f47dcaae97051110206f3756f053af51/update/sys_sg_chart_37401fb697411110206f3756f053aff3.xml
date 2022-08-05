@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_chart">
+    <sys_sg_chart action="INSERT_OR_UPDATE">
+        <jump_to_screen display_value="Nav Urban 188 Workorder - Chart">b850d7f697411110206f3756f053aff0</jump_to_screen>
+        <name>Urban 188 Workorder</name>
+        <report display_value="My Groups SLAs by Stage">4d712f940a0a0b3000dd3536fd0cce79</report>
+        <sys_class_name>sys_sg_chart</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-05 13:10:25</sys_created_on>
+        <sys_id>37401fb697411110206f3756f053aff3</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Urban 188 Workorder</sys_name>
+        <sys_package display_value="Apartment Unit Workorders" source="x_804680_app_unit">f47dcaae97051110206f3756f053af51</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Apartment Unit Workorders">f47dcaae97051110206f3756f053af51</sys_scope>
+        <sys_update_name>sys_sg_chart_37401fb697411110206f3756f053aff3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-05 13:10:29</sys_updated_on>
+        <title/>
+        <type>report</type>
+        <widget/>
+    </sys_sg_chart>
+</record_update>

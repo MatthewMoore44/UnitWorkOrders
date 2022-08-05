@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas">
+    <sys_grid_canvas action="INSERT_OR_UPDATE">
+        <legacy_page display_value="PA Test5555555555555555 - New Tab">ad3b23f297c11110206f3756f053af12</legacy_page>
+        <name>PA Test5555555555555555 - New Tab</name>
+        <sys_class_name>sys_grid_canvas</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-08-05 15:07:57</sys_created_on>
+        <sys_id>2d3b23f297c11110206f3756f053af13</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PA Test5555555555555555 - New Tab</sys_name>
+        <sys_package display_value="Apartment Unit Workorders" source="x_804680_app_unit">f47dcaae97051110206f3756f053af51</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Apartment Unit Workorders">f47dcaae97051110206f3756f053af51</sys_scope>
+        <sys_update_name>sys_grid_canvas_2d3b23f297c11110206f3756f053af13</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-08-05 15:07:57</sys_updated_on>
+    </sys_grid_canvas>
+</record_update>
